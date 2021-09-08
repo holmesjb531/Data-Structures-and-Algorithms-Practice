@@ -20,7 +20,8 @@ public class ReverseAString {
         System.out.println("Second reverse method: " + sentence);
         System.out.print(reverse2(sentence));
     }
-
+    
+    //first reverse String method where a char array is used to reverse the string
     public static void reverse(String str){
         char[] rString = str.toCharArray();
 
@@ -30,6 +31,7 @@ public class ReverseAString {
 
     }
 
+    //second reverse String method where the string is reversed using the charAt() function
     public static String reverse2(String str){
         String result = "";
 
@@ -44,6 +46,5 @@ public class ReverseAString {
         String newStr = new StringBuilder(str).reverse().toString();
         return newStr;
     }
-
 
 }
