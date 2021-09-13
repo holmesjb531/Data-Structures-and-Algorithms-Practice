@@ -20,7 +20,7 @@ public class ReverseAString {
         System.out.println("Second reverse method: " + sentence);
         System.out.print(reverse2(sentence));
     }
-    
+
     //first reverse String method where a char array is used to reverse the string
     public static void reverse(String str){
         char[] rString = str.toCharArray();
